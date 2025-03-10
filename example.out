@@ -1,0 +1,23 @@
+Program
+  VarDecls   Type: Int
+    VarDef   name:a   scope:-1
+      init:
+        VarInitVal_exp
+          Intconst   val:2   Type: Void   
+  FuncDef   Name:main   ReturnType: Int
+    Block   Size:3
+      VarDecls   Type: Float
+        VarDef   name:a   scope:-1
+          init:
+            VarInitVal_exp
+              Intconst   val:1   Type: Void   
+      ConstDecls   Type: Int
+        ConstDef   name:b   scope:-1
+          Dimensions:
+            Intconst   val:1   Type: Void   
+          init:
+            ConstInitVal
+              ConstInitVal_exp   Type: Void   
+                Intconst   val:0   Type: Void   
+      ReturnStmt:
+        Intconst   val:0   Type: Void   
